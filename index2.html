@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Of US 💕</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0b0b0b;
+            color: #eee;
+        }
+
+        header {
+            text-align: center;
+            padding: 70px 20px;
+            background: linear-gradient(135deg, #ff4d8d, #111);
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #ffd6e6;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 60px 20px;
+        }
+
+        .memory {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 80px;
+            align-items: center;
+
+            /* ANIMASI SCROLL */
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s ease;
+        }
+
+        .memory.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .memory:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .memory img {
+            width: 320px;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(255, 77, 141, 0.5);
+        }
+
+        .memory-text h2 {
+            color: #ff4d8d;
+            margin-bottom: 10px;
+        }
+
+        .memory-text p {
+            line-height: 1.8;
+            color: #ccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #111;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .memory {
+                flex-direction: column !important;
+                text-align: center;
+            }
+
+            .memory img {
+                width: 100%;
+                max-width: 360px;
+            }
+        }
+    </style>
+</head>
+<body>
+<audio id="musikBucin" src="musik.mp3" autoplay loop></audio>
+<header>
+    <h1>Memory Of US 💖</h1>
+    <p>Here the memory that our share hehe <3 </p>
+</header>
+
+<div class="container">
+
+    <!-- FOTO 1 -->
+    <div class="memory">
+        <img src="img/foto1.jpg">
+        <div class="memory-text">
+            <h2>AWAL BERTEMU</h2>
+            <p>Hari di mana aku memberanikan diri untuk mendekatimu disaat hidupku benar benar dalam fase yang sangat berat, aku selalu bersyukur hingga saat ini <3 thankyou for coming in my life, i made this with heart my love <3  </p>
+        </div>
+    </div>
+
+    <!-- FOTO 2 -->
+    <div class="memory">
+        <img src="img/foto2.jpg">
+        <div class="memory-text">
+            <h2>PERBINCANGAN PERTAMA</h2>
+            <p>Aku sadar, bahwa suara tertawamu lah yang sangat aku cari selama ini <3 aku tak pernah bosan sama sekali mendengar suaramu yang sangat cantik hingga hari ini, tanpa sedikitpun rasa burnout dan ingin meninggalkanmu heheee <3 </p>
+        </div>
+    </div>
+
+    <!-- FOTO 3 -->
+    <div class="memory">
+        <img src="img/foto3.jpg">
+        <div class="memory-text">
+            <h2>MOBILE LEGENDS : BANG BANG</h2>
+            <p>Masih ingat nggak momen ini ? di season pertama kita pacaran, kita langsung menyentuh rank Immortal bareng loh ! <3 walaupun susah dan kamu cuma bisa main angela sama floryn doang <: tapi semua perjalanan memang sangat menyenangkan heheee :p bunga kita sampai mekar karena kita selalu main terus, nggak lupa jugaa kita main sama temen - temen yang lain, kayak Habibi,Fahmi, Hanz, dan banyak yang lainnya :p</p>
+        </div>
+    </div>
+
+    <!-- FOTO 4 -->
+    <div class="memory">
+        <img src="img/foto4.jpg">
+        <div class="memory-text">
+            <h2>ROBLOXXXXXXX</h2>
+            <p>Saat itu kita ditahap burnout bermain ML, siapa sangka ? kita malah coba main game yang katanya buat bocah, tapi makin kesini malah makin kena mental yaa main ini game, berawal dari muncak gunung sama nanam tanaman, eh.. makin kesini malah makin nyeleneh karena mancing mancing itu, sampai badmood berat + emosi karena enggak dapat rod yang kamu pengen, sampai akhirnya aku sendiri yang turun tangan nyeheee :3 </p>
+        </div>
+    </div>
+
+    <!-- FOTO 5 -->
+    <div class="memory">
+        <img src="img/foto5.jpg">
+        <div class="memory-text">
+            <h2>HONKAI : STAR RAIL</h2>
+            <p>YAH YAH YAHHH, harus aku akui akun kamu saat pertama kali dikenalin ke aku, memang sangat flexing parah... punya the herta E1, double dalam 10 pull pulaaa.. tapi ingat selalu siapa yang build akun kamu sampai bisa fullstar all endgame content hehee <3, gak lupa juga yaa tragedi banner Phainon, Sunday, sama Tribbie kala ituu.. yang buat aku main sampai puluhan jam cuma buat pulangin mereka di akun kita :x </p>
+        </div>
+    </div>
+
+    <!-- FOTO 6 -->
+    <div class="memory">
+        <img src="img/foto6.jpg">
+        <div class="memory-text">
+            <h2>GENSHIN IMPACT</h2>
+            <p>Kalo yang satu ini sih.. no komen yah, dari dulu aku suruh build Bennett buat main sama Arlecchino, gak kamu build sampai 2025 ( nada marah besar ) inget jugaaa dulu siapa yang selalu bantuin kamu domain buat build Arlecchino hehehe <3 tiap aku join live terus ngechat kamu langsung "eh udahan dulu main MLnya, aku mau genshin dulu domain di carry sepuh" jiaaakhh :p btw kak, ini pertama kalinya bikin trend latern rite yah? EH IYA NGGA SIH WAKAWKWAK </p>
+        </div>
+    </div>
+
+    <!-- FOTO 7 -->
+    <div class="memory">
+        <img src="img/foto7.jpg">
+        <div class="memory-text">
+            <h2>WUTHERING WAVES</h2>
+            <p>SATU KATA YANG BUAT AKU SELALU INGET KAMU. "CARLOTTA" AWKAWKWAKKWA, emangg sekental itu karakter Carlotta sama pacarku, selalu main Carlotta dari dulu sampai sekarang, dan selalu bangga berapapun damagenya, inget nggak? dulu pertama kali main aku carry kamu :p ?</p>
+        </div>
+    </div>
+
+    <!-- FOTO 8 -->
+    <div class="memory">
+        <img src="img/foto8.jpg">
+        <div class="memory-text">
+            <h2>Janji Kecil</h2>
+            <p>Tak terdengar keras, tapi kupeluk erat di hati.</p>
+        </div>
+    </div>
+
+    <!-- FOTO 9 -->
+    <div class="memory">
+        <img src="img/foto9.jpg">
+        <div class="memory-text">
+            <h2>Bahagia yang Tenang</h2>
+            <p>Aku belajar bahwa cinta tak harus ramai.</p>
+        </div>
+    </div>
+
+    <!-- FOTO 10 -->
+    <div class="memory">
+        <img src="img/foto10.jpg">
+        <div class="memory-text">
+            <h2>Selalu Kamu</h2>
+            <p>Jika aku harus mengulang semuanya, aku tetap memilihmu.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 • made by love 💗
+</footer>
+
+<!-- JAVASCRIPT ANIMASI SCROLL -->
+<script>
+    const memories = document.querySelectorAll('.memory');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+            }
+        });
+    }, {
+        threshold: 0.2
+    });
+
+    memories.forEach(memory => {
+        observer.observe(memory);
+    });
+</script>
+
+</body>
+</html>
